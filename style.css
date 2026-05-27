@@ -1,47 +1,183 @@
-body{
+body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    background: #1F2937;
+    padding: 10px 100px;
 }
-.logo{
+
+.logo {
     padding: 16px;
+    color: white;
+    margin-right: 15%;
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
-    gap:16px;
+    gap: 16px;
     margin-left: auto;
 }
-.pl-img{
-    border:1px solid #000;
-    background: #ccc;
-    width:200px;
-    height:100px;
+
+li {
+    color: white;
 }
-.hero-1{
+
+.pl-img {
+    border: 1px solid #000;
+    background: #ccc;
+    width: 200px;
+    height: 100px;
+}
+
+.hero-1 {
     display: flex;
     flex: 1;
     justify-content: space-around;
     align-items: center;
+    background: #1F2937;
+    padding: 50px 100px;
+
 }
-.info-box{
+
+.info-box {
     display: flex;
     flex-direction: column;
     gap: 15px;
     flex: 0 1 20%
-
 }
-.info-box button{
+
+.info-box button {
     align-self: flex-start;
 }
-.text-group h3, .text-group p{
+
+.text-group h3,
+.text-group p {
     margin: 0;
+}
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.hero-2 h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+
+.square-box {
+    width: 100px;
+    height: 100px;
+    border: 5px solid dodgerblue;
+    border-radius: 15px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.card p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.hero-3 {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    gap: 10px;
+}
+
+.cite {
+    align-self: flex-end;
+}
+
+.hero-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.cta-box {
+    width: 80%;
+    background: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    padding: 20px 100px;
+
+}
+
+.cta-text h4 {
+    margin-bottom: 5px;
+}
+
+.cta-text p {
+    margin-top: 5px;
+    width: 300px;
+}
+
+.cta-box button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 32px;
+    margin-right: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
 }
