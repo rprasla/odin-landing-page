@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.logo{
+    padding: 16px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap:16px;
+    margin-left: auto;
+}
+.pl-img{
+    border:1px solid #000;
+    background: #ccc;
+    width:200px;
+    height:100px;
+}
+.hero-1{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 0 1 20%
+
+}
+.info-box button{
+    align-self: flex-start;
+}
+.text-group h3, .text-group p{
+    margin: 0;
+}
